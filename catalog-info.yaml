@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+
+metadata:
+  name: telecom-data-platform
+  title: Telecom Data Platform
+  description: Enterprise telecom data ingestion and analytics platform
+
+spec:
+  owner: cloud-architecture
