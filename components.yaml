@@ -1,0 +1,50 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: telemetry-collector
+
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud-architecture
+  system: telecom-data-platform
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: kafka-ingestion
+
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud-architecture
+  system: telecom-data-platform
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: data-normalizer
+
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud-architecture
+  system: telecom-data-platform
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: databricks-etl
+
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud-architecture
+  system: telecom-data-platform
