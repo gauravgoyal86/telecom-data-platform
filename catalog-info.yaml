@@ -8,8 +8,10 @@ metadata:
 
   annotations:
     github.com/project-slug: gauravgoyal86/telecom-data-platform
-
     backstage.io/kubernetes-id: telemetry-pipeline
+    backstage.io/kubernetes-namespace: telemetry
+    argocd/app-name: telemetry-pipeline
+    janus-idp.io/tekton-enabled: "true"
 
 spec:
   type: service
